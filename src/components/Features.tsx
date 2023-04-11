@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { AiOutlineCar } from 'react-icons/ai'
+import { Link as RouterLink } from 'react-router-dom' // Rename the imported Link component
 const FeaturesContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +38,10 @@ const FeatureDescription = styled.p`
   text-align: center;
 `
 
+const Link = styled(RouterLink)`
+  text-decoration: none;
+  color: inherit;
+`
 const featuresData = [
   {
     id: 1,
@@ -46,7 +51,7 @@ const featuresData = [
       'Här kan du boka parkeringsplatserna som finns tillgängliga för kontoret',
     url: 'https://ffcg-halmstad.netlify.app/',
   },
-   /* {
+  /* {
     id: 2,
     icon: '🔒',
     title: 'Feature 2',
@@ -58,7 +63,7 @@ const featuresData = [
     title: 'Evenemang',
     description:
       'Kommer snart! Här kommer du kunna  läsa om kommande evenemang för kontoret. Såsom AW, Aktiviteter, Resor etc.',
-    url: '/',
+    url: '/evenemang',
   },
 ]
 
@@ -86,13 +91,13 @@ const Features: React.FC = () => {
         variants={staggerAnimation}
       >
         {featuresData.map((feature) => (
-          <a href={feature.url} key={feature.id}>
+          <Link to={feature.url} key={feature.id}>
             <FeatureCard variants={featureAnimation}>
               <FeatureIcon>{feature.icon}</FeatureIcon>
               <FeatureTitle>{feature.title}</FeatureTitle>
               <FeatureDescription>{feature.description}</FeatureDescription>
             </FeatureCard>
-          </a>
+          </Link>
         ))}
       </motion.div>
     </FeaturesContainer>

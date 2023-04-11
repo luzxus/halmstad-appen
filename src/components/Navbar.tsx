@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <NavbarContainer>
-        <Logo href="#">Halmstad</Logo>
+        <Logo href="/">Halmstad</Logo>
         <NavMenu>
           <NavItem>
             <NavLink href="#features">Lösningar</NavLink>

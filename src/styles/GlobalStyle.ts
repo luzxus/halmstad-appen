@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   body {
@@ -21,5 +22,8 @@ export const GlobalStyle = createGlobalStyle`
 
   img {
     max-width: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
   }
 `
