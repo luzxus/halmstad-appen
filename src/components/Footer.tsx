@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
       <FooterLogo href="#">The (Halmstad) Office</FooterLogo>
       <FooterNav>
         <FooterNavItem>
-          <FooterNavLink href="#features">Lösningar</FooterNavLink>
+          <FooterNavLink href="#features">Sidor</FooterNavLink>
         </FooterNavItem>
       </FooterNav>
       <SocialIcons>

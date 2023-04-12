@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
         <Logo href="/">Halmstad</Logo>
         <NavMenu>
           <NavItem>
-            <NavLink href="#features">Lösningar</NavLink>
+            <NavLink href="#features">Sidor</NavLink>
           </NavItem>
          {/*  <NavItem>
             <NavLink href="#features">Vi som jobbar här</NavLink>
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
       <MobileNavMenu isOpen={isOpen}>
         <MobileNavItem>
           <NavLink href="#features" onClick={toggleMenu}>
-            Lösningar
+            Sidor
           </NavLink>
         </MobileNavItem>
       </MobileNavMenu>

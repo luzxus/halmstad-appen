@@ -56,8 +56,8 @@ const Hero: React.FC = () => {
     <HeroContainer>
       <HeroContent initial="hidden" animate="visible" variants={heroVariants}>
         <HeroTitle>Halmstad kontoret</HeroTitle>
-        <HeroSubtitle>Bästa kontoret behöver bästa lösningarna</HeroSubtitle>
-        <HeroCTA href="#features">Lösningar</HeroCTA>
+        <HeroSubtitle>Bästa kontoret behöver bästa hemsidan</HeroSubtitle>
+        <HeroCTA href="#features">Utforska</HeroCTA>
       </HeroContent>
     </HeroContainer>
   );

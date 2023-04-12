@@ -42,13 +42,13 @@ const updatesData = [
     title: 'Aktivitet',
     date: '2023-06-05',
     content:
-      'Vi vill bjuda in er till en AW den 5 juni 2023 för att fira  Apple, det ikoniska teknikföretaget som har revolutionerat världen med sina iPhones, Mac-datorer (och kanske snart Reality Headset?). Evenemanget kommer att äga rum på vårt kontor och vi kommer tillsammans att titta på World Wide Developer Conference (WWDC), som sänds live direkt från Apple Park i Kalifornien klockan 19:00 svensk tid',
+      'WWDC på kontoret. Börjar 19.00',
   },
   {
     id: 2,
     title: 'Forefront on tour',
     date: '2023-04-20',
-    content: 'Konferens i Lindvallen',
+    content: 'Konferens i Lindvallen börjar',
   },
   /*   {
     id: 3,
