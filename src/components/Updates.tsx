@@ -8,6 +8,7 @@ const UpdatesContainer = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   padding: 4rem 2rem;
+  min-height: calc(100vh - 160px);
 `
 
 const UpdateCard = styled(motion.div)`
@@ -41,8 +42,7 @@ const updatesData = [
     id: 1,
     title: 'Aktivitet',
     date: '2023-06-05',
-    content:
-      'WWDC på kontoret. Börjar 19.00',
+    content: 'WWDC på kontoret. Börjar 19.00',
   },
   {
     id: 2,

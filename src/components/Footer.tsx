@@ -15,6 +15,7 @@ const FooterContainer = styled.footer`
   padding: 1rem 2rem;
   background-color: #333;
   color: #fff;
+  width: 100%;
 `
 
 const FooterLogo = styled.a`
@@ -65,7 +66,7 @@ const SocialIcon = styled.a`
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
-      <FooterLogo href="#">The (Halmstad) Office</FooterLogo>
+      <FooterLogo href="#">Halmstad</FooterLogo>
       <FooterNav>
         <FooterNavItem>
           <FooterNavLink href="#features">Sidor</FooterNavLink>
